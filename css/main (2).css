@@ -1,0 +1,386 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+.container {
+    display: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main_header {
+    padding: 16px 100px 16px 100px;
+}
+
+.main_header_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+}
+
+.main_header_list {
+    display: flex;
+    align-items: center;
+}
+
+.main_header_item {
+    margin-left: 40px;
+}
+
+.main_header_link {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.active {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    display: inline-flex;
+    padding: 8px 16px;
+    align-items: center;
+    border-radius: 5px;
+    background: #00BAFC;
+}
+
+/* whf boshlandi */
+
+.wfh {
+    padding: 80px 100px 80px 100px;
+}
+
+.container {
+    display: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.wfh_title {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 16px;
+}
+
+.wfh_text {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 465px;
+    margin-bottom: 16px;
+}
+
+.wfh_btn {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 8px 16px 8px 16px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #00BAFC
+}
+
+
+.wfh_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.wfh_content {
+    width: 450px;
+
+}
+
+.wfh_img {
+    width: 458px;
+    flex-shrink: 0;
+}
+
+/* bot boshlandi */
+
+.bot {
+    padding-top: 56px;
+}
+
+.bot_title {
+    color: #000;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 16px;
+}
+
+.bot_text {
+    color: #000;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 719px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.bot_list {
+    justify-content: center;
+    width: 1300px;
+    margin-bottom: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 34px;
+}
+
+.bot_img_block {
+    width: 202.795px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.bot_sub_title {
+    color: #000;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 16px;
+}
+
+.bot_inner_text {
+    color: #000;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.bot_item {
+    display: flex;
+    width: 320px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.10);
+}
+
+
+.bot_two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bot_btn {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 8px 16px 8px 16px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #00BAFC;
+    margin-top: 40px;
+    margin-right: 16px;
+}
+
+.bot_one_text {
+    color: #00BAFC;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+    margin-top: 40px;
+
+}
+
+/* job boshlandi */
+
+.job {
+    padding-top: 112px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.job_title {
+    color: #000;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 16px;
+}
+
+.job_text {
+    color: #000;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 719px;
+    margin-bottom: 16px;
+}
+
+.job_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.job_img {
+    width: 300px;
+}
+
+.job_sub_title {
+    color: #000;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 8px;
+}
+
+.job_inner_text {
+    color: #000;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 493px;
+}
+
+/* job boshlandi */
+
+
+
+.work {
+    padding-top: 48px;
+
+}
+
+.work_list {
+    display: flex;
+    flex-direction: column;
+    width: 832px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.work_card {
+    width: 832px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 48px;
+}
+
+
+
+.work_title {
+    color: #000;
+    text-align: start;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 8px;
+}
+
+.work_text {
+    width: 430px;
+    height: 48px;
+    align-items: center;
+    color: #000;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+.work_btn_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work_btn {
+    color: #FFF;
+    font-family: "Open Sans";
+    border-radius: 5px;
+    background: #00BAFC;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 8px 16px 8px 16px;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.mail {
+    padding-top: 56px;
+}
+
+
+.mail_block {
+    width: 1300px;
+    flex-shrink: 0;
+    background-color: #191919;
+    margin-left: auto;
+    margin-right: auto;
+}
